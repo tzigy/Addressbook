@@ -1,0 +1,11 @@
+package de.inmediasp.resources;
+
+import javax.ws.rs.core.MediaType;
+
+import de.inmediasp.model.AddressBookEntity;
+
+public class AddressBookResources {
+
+	
+	
+}

@@ -1,0 +1,5 @@
+package de.inmediasp.model;
+
+public class AddressBook {
+
+}

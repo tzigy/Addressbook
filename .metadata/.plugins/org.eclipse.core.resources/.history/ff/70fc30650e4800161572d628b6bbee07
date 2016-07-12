@@ -1,0 +1,35 @@
+package de.inmediasp.view;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import de.inmediasp.model.AddressBook;
+import de.inmediasp.model.AddressBookEntity;
+
+@Path("addressBook")
+public class AddressBookView {
+
+	private AddressBook addressBook = new AddressBook();
+	
+	@GET
+	@Produces(MediaType.APPLICATION_XML)
+	public AddressBook getAllAddresses(){
+		
+		return this.addressBook;
+	}
+	
+	@POST
+	//@Produces(MediaType.APPLICATION_XML)
+	public void addAddress(){
+		AddressBookEntity address = new AddressBookEntity();
+		address.setFirstname("John");
+		address.setLastname("Doe");
+		address.setEmail("john.dow@test.de");
+		
+		this.addressBook.addAddressBookEntity(address);
+
+	}
+}

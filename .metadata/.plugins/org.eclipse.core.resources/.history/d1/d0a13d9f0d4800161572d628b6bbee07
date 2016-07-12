@@ -1,0 +1,19 @@
+package de.inmediasp.view;
+
+import javax.ws.rs.Path;
+
+import de.inmediasp.model.AddressBook;
+import de.inmediasp.model.AddressBookEntity;
+
+@Path("addressBook")
+public class AddressBookView {
+
+	private AddressBook addressBook = new AddressBook();
+	
+	@GET
+	@Produces(MediaType.APPLICATION_XML)
+	public AddressBook getAllAddresses(){
+		
+		return this.addressBook;
+	}
+}

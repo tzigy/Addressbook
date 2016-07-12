@@ -1,0 +1,14 @@
+package de.inmediasp.resources;
+
+import javax.ws.rs.core.MediaType;
+
+import de.inmediasp.model.AddressBookEntity;
+
+public class AddressBookResources {
+
+	AddressBookEntity address = new AddressBookEntity();
+	address.setFirstname("John");
+	address.
+	
+	
+}

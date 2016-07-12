@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1468234297969_1" label="currentProject" name="currentProject">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/addressBook" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1468321482496_5" label="testWorkingSet" name="testWorkingSet">
+<item elementID="=my-test-project" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1468234240707_0" label="Window Working Set" name="Aggregate for window 1468234240706"/>
+<mruList name="testWorkingSet"/>
+<mruList name="currentProject"/>
+</workingSetManager>

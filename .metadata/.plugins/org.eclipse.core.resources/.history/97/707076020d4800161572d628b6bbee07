@@ -1,0 +1,5 @@
+package de.inmediasp.view;
+
+public class AddressBookView {
+
+}

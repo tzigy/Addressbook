@@ -1,0 +1,6 @@
+package de.inmediasp.model;
+
+public class AddressBookEntity {
+	
+
+}

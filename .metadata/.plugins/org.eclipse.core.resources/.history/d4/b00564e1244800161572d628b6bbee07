@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Addressbook" xmlns:tns="http://www.example.org/Addressbook" elementFormDefault="qualified">
+	<xs:element name="addressbook">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="addressbook-entity">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="firstname" type="xs:string"></xs:element>
+							<xs:element name="lastname" type="xs:string"></xs:element>
+							<xs:element name="street" type="xs:string"></xs:element>
+							<xs:element name="postcode" type="xs:int"></xs:element>
+							<xs:element name="city" type="xs:string"></xs:element>
+							<xs:element name="country" type="xs:string"></xs:element>
+							<xs:element name="e-mail" type="xs:string"></xs:element>
+							<xs:element name="phone" type="xs:string"></xs:element>
+						</xs:sequence>
+					</xs:complexType>			
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
